@@ -119,7 +119,7 @@ namespace CSoft.WebApp.Areas.CodeMaticModule.Controllers
         public ActionResult GetCodeBuilderEntity(string ProjectName, string ClassName, string EntityName, string table)
         {
             codematicbll.Company = "CSoft";
-            codematicbll.Author = "eleccomm";
+            codematicbll.Author = "CSoft";
             codematicbll.CreateYear = DateTime.Now.ToString("yyyy");
             codematicbll.CreateDate = DateTime.Now.ToString("yyyy.MM.dd HH:mm");
             codematicbll.ClassName = ClassName;
@@ -157,7 +157,7 @@ namespace CSoft.WebApp.Areas.CodeMaticModule.Controllers
         public ActionResult GetCodeBuilderBusiness(string ProjectName, string ClassName, string ServiceName, string EntityName, string BusinessName, string table)
         {
             codematicbll.Company = "CSoft";
-            codematicbll.Author = "eleccomm";
+            codematicbll.Author = "CSoft";
             codematicbll.CreateYear = DateTime.Now.ToString("yyyy");
             codematicbll.CreateDate = DateTime.Now.ToString("yyyy.MM.dd HH:mm");
             codematicbll.ClassName = ClassName;
@@ -183,7 +183,7 @@ namespace CSoft.WebApp.Areas.CodeMaticModule.Controllers
         public ActionResult GetCodeBuilderFrom(string Areas, string ControllerName, string ClassName, string PageFormName, string table, string FromJson, string FormCss, int ColumnCount)
         {
             codematicbll.Company = "CSoft";
-            codematicbll.Author = "eleccomm";
+            codematicbll.Author = "CSoft";
             codematicbll.CreateYear = DateTime.Now.ToString("yyyy");
             codematicbll.CreateDate = DateTime.Now.ToString("yyyy.MM.dd HH:mm");
             codematicbll.ClassName = ClassName;
@@ -208,7 +208,7 @@ namespace CSoft.WebApp.Areas.CodeMaticModule.Controllers
         public ActionResult GetCodeBuilderFromDetail(string Areas, string ControllerName, string ClassName, string PageFormDetailName, string table, string FromDetailJson, string FormDetailCss, int ColumnCount)
         {
             codematicbll.Company = "CSoft";
-            codematicbll.Author = "eleccomm";
+            codematicbll.Author = "CSoft";
             codematicbll.CreateYear = DateTime.Now.ToString("yyyy");
             codematicbll.CreateDate = DateTime.Now.ToString("yyyy.MM.dd HH:mm");
             codematicbll.ClassName = ClassName;
@@ -239,7 +239,7 @@ namespace CSoft.WebApp.Areas.CodeMaticModule.Controllers
             string showFieldJson, string AllowOrder, string OrderType, string OrderField, string AllowPageing, string pageSize, string PageLayout, string method)
         {
             codematicbll.Company = "CSoft";
-            codematicbll.Author = "eleccomm";
+            codematicbll.Author = "CSoft";
             codematicbll.CreateYear = DateTime.Now.ToString("yyyy");
             codematicbll.CreateDate = DateTime.Now.ToString("yyyy.MM.dd HH:mm");
             codematicbll.ClassName = ClassName;
@@ -263,7 +263,7 @@ namespace CSoft.WebApp.Areas.CodeMaticModule.Controllers
         public ActionResult GetCodeBuilderController(string Areas, string ClassName, string ControllerName, string BusinessName, string EntityName, string table)
         {
             codematicbll.Company = "CSoft";
-            codematicbll.Author = "eleccomm";
+            codematicbll.Author = "CSoft";
             codematicbll.CreateYear = DateTime.Now.ToString("yyyy");
             codematicbll.CreateDate = DateTime.Now.ToString("yyyy.MM.dd HH:mm");
             codematicbll.ClassName = ClassName;

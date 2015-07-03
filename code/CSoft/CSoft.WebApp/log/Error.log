@@ -1,0 +1,2 @@
+2015-07-03 11:05:55,408 [4] ERROR CSoft.DataAccess.DbHelper - 参数化查询 '(@CompanyId nvarchar(4000))SELECT top 1 CompanyId,ParentId,Categ' 需要参数 '@CompanyId'，但未提供该参数。
+2015-07-03 11:08:27,425 [4] ERROR CSoft.DataAccess.DbHelper - 参数化查询 '(@CompanyId nvarchar(4000))SELECT top 1 CompanyId,ParentId,Categ' 需要参数 '@CompanyId'，但未提供该参数。

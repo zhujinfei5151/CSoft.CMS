@@ -1,6 +1,5 @@
 ﻿/**
- * jQuery CSoftUI 4.1
- *深圳市意科特实业有限公司 Copyright © Eleccomm 2014
+ *深圳市潜龙科技有限公司 Copyright © CSoft 2014
  */
 //样式
 $(function () {

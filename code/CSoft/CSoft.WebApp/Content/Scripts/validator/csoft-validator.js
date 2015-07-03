@@ -1,6 +1,6 @@
 ﻿/**
  * jQuery csoft 4.1
- *深圳市意科特实业有限公司 Copyright © csoft 2014
+ *深圳市潜龙科技有限公司 Copyright © csoft 2014
  */
 /* 表单验证使用实例！  */
 //获取Request notnull
