@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>设计流程</title>
+    <!--框架必需start-->
+    <link href="~/Content/Styles/learunui-framework.css" rel="stylesheet" />
+    <script src="~/Content/Scripts/jquery/jquery-1.8.2.min.js"></script>
+    <script src="~/Content/Scripts/learunui-framework.js"></script>
+    <!--框架必需end-->
+    <!--流程设计器start-->
+    <link href="~/Content/Scripts/GooFlow/GooFlow.css" rel="stylesheet" />
+    <script src="~/Content/Scripts/GooFlow/GooFlow.js"></script>
+    <!--流程设计器end-->
+    <!--Jquery打印 start-->
+    <script src="~/Content/Scripts/jqprint/jquery.jqprint-0.3.js"></script>
+    <!--Jquery打印 end-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            LoadGooFlow();
+        });
+        //初始化设计流程器
+        function LoadGooFlow() {
+            var FlowPanel = $.createGooFlow($("#FlowPanel"), {
+                width: $(window).width() - 2,
+                height: $(window).height() - 50,
+                haveHead: true,
+                headBtns: ["undo", "redo"],
+                haveTool: true,
+                toolBtns: ["startround", "endround", "stepnode", "gentlenode mix", "subnode"],
+                haveGroup: true,
+                useOperStack: true
+            });
+            FlowPanel.setNodeRemarks({
+                cursor: "选择指针",
+                direct: "步骤连线",
+                startround: "开始节点",
+                endround: "结束节点",
+                stepnode: "普通节点",
+                gentlenode: "分流节点",
+                subnode: "合流节点",
+                group: "区域规划"
+            });
+        }
+        function BaseInfo() {
+            var NodeNo = $('.item_focus').attr('id');                           //节点ID
+            var NodeName = $(".item_focus table tr:eq(0) td:eq(1)").text();     //节点名称
+            alert(NodeNo)
+            alert(NodeName)
+        };
+    </script>
+</head>
+<body>
+    <div class="tools_bar leftline rightline" style="margin: 1px;">
+        <div class="PartialButton">
+            <a id="lr-replace" class="tools_btn" title="刷新当前(Ctrl+Q)" onclick="Replace()"><span><b style='background: url(@Url.Content("~/Content/Images/Icon16/arrow_refresh.png")) no-repeat 50% 4px;'>刷新</b></span></a>
+            <div class="tools_separator"></div>
+            <a title="保存设计流程" onclick="SubmitOrderForm()" class="tools_btn"><span><b style="background: url(@Url.Content("~/Content/Images/Icon16/disk.png")) 50% 4px no-repeat;">保存布局</b></span></a>
+            <a title="撤销" onclick="$('.GooFlow_head_btn').find('.ico_undo').trigger('click')" class="tools_btn"><span><b style="background: url(@Url.Content("~/Content/Images/Icon16/arrow_undo.png")) 50% 4px no-repeat;">撤销</b></span></a>
+            <a title="重做" onclick="$('.GooFlow_head_btn').find('.ico_redo').trigger('click')" class="tools_btn"><span><b style="background: url(@Url.Content("~/Content/Images/Icon16/arrow_redo.png")) 50% 4px no-repeat;">重做</b></span></a>
+            <div class="tools_separator"></div>
+            <a title="关闭当前窗口(Esc)" onclick="ThisCloseTab()" class="tools_btn"><span><b style="background: url(@Url.Content("~/Content/Images/Icon16/back.png")) 50% 4px no-repeat;">离开</b></span></a>
+        </div>
+        <div style="padding-top: 6px; padding-right: 5px;">
+            <ul class="switch-btns" style="float: right;">
+                <li id="li-switch-list" style="border: 1px solid #ccc;" title="切换到列表视图">
+                    <div class="icon icon-btn-switch-list-select"></div>
+                </li>
+                <li id="li-switch-view" class="selected" style="border: 1px solid #ccc; border-left: none;" title="切换到图形视图">
+                    <div class="icon icon-btn-switch-view"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="FlowPanel" style="margin: 1px; margin-top: 0px;"></div>
+    <div class="rightMenu">
+        <ul>
+            <li onclick="BaseInfo()">节点属性</li>
+            <li>节点类型</li>
+            <li>更换图标</li>
+            <li>删除节点</li>
+        </ul>
+    </div>
+</body>
+</html>

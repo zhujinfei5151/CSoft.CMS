@@ -1,0 +1,10 @@
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.WCFLibrary\bin\Debug\CSoft.WCFLibrary.dll
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.WCFLibrary\bin\Debug\CSoft.WCFLibrary.pdb
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.WCFLibrary\obj\Debug\CSoft.WCFLibrary.csprojResolveAssemblyReference.cache
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.WCFLibrary\obj\Debug\CSoft.WCFLibrary.dll
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.WCFLibrary\obj\Debug\CSoft.WCFLibrary.pdb
+E:\Desktop\Work\CMS\code\CSoft\CSoft.WCFLibrary\bin\Debug\CSoft.WCFLibrary.dll
+E:\Desktop\Work\CMS\code\CSoft\CSoft.WCFLibrary\bin\Debug\CSoft.WCFLibrary.pdb
+E:\Desktop\Work\CMS\code\CSoft\CSoft.WCFLibrary\obj\Debug\CSoft.WCFLibrary.csprojResolveAssemblyReference.cache
+E:\Desktop\Work\CMS\code\CSoft\CSoft.WCFLibrary\obj\Debug\CSoft.WCFLibrary.dll
+E:\Desktop\Work\CMS\code\CSoft\CSoft.WCFLibrary\obj\Debug\CSoft.WCFLibrary.pdb

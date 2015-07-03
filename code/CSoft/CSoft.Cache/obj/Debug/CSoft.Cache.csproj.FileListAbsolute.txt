@@ -1,0 +1,9 @@
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.Cache\bin\Debug\CSoft.Cache.dll
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.Cache\bin\Debug\CSoft.Cache.pdb
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.Cache\obj\Debug\CSoft.Cache.csprojResolveAssemblyReference.cache
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.Cache\obj\Debug\CSoft.Cache.dll
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.Cache\obj\Debug\CSoft.Cache.pdb
+E:\Desktop\Work\CMS\code\CSoft\CSoft.Cache\bin\Debug\CSoft.Cache.dll
+E:\Desktop\Work\CMS\code\CSoft\CSoft.Cache\bin\Debug\CSoft.Cache.pdb
+E:\Desktop\Work\CMS\code\CSoft\CSoft.Cache\obj\Debug\CSoft.Cache.dll
+E:\Desktop\Work\CMS\code\CSoft\CSoft.Cache\obj\Debug\CSoft.Cache.pdb

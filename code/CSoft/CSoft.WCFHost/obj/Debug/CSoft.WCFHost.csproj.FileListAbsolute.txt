@@ -1,0 +1,12 @@
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.WCFHost\bin\CSoft.WCFHost.dll.config
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.WCFHost\bin\CSoft.WCFHost.dll
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.WCFHost\bin\CSoft.WCFHost.pdb
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.WCFHost\obj\Debug\CSoft.WCFHost.csprojResolveAssemblyReference.cache
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.WCFHost\obj\Debug\CSoft.WCFHost.dll
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.WCFHost\obj\Debug\CSoft.WCFHost.pdb
+E:\Desktop\Work\CMS\code\CSoft\CSoft.WCFHost\bin\CSoft.WCFHost.dll.config
+E:\Desktop\Work\CMS\code\CSoft\CSoft.WCFHost\bin\CSoft.WCFHost.dll
+E:\Desktop\Work\CMS\code\CSoft\CSoft.WCFHost\bin\CSoft.WCFHost.pdb
+E:\Desktop\Work\CMS\code\CSoft\CSoft.WCFHost\obj\Debug\CSoft.WCFHost.csprojResolveAssemblyReference.cache
+E:\Desktop\Work\CMS\code\CSoft\CSoft.WCFHost\obj\Debug\CSoft.WCFHost.dll
+E:\Desktop\Work\CMS\code\CSoft\CSoft.WCFHost\obj\Debug\CSoft.WCFHost.pdb

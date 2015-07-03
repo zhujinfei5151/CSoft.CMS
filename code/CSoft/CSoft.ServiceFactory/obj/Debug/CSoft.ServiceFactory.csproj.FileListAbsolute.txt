@@ -1,0 +1,9 @@
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.ServiceFactory\bin\Debug\CSoft.ServiceFactory.dll
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.ServiceFactory\bin\Debug\CSoft.ServiceFactory.pdb
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.ServiceFactory\obj\Debug\CSoft.ServiceFactory.csprojResolveAssemblyReference.cache
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.ServiceFactory\obj\Debug\CSoft.ServiceFactory.dll
+E:\Desktop\Work\CMS\code\CSoft\LeaRun.ServiceFactory\obj\Debug\CSoft.ServiceFactory.pdb
+E:\Desktop\Work\CMS\code\CSoft\CSoft.ServiceFactory\bin\Debug\CSoft.ServiceFactory.dll
+E:\Desktop\Work\CMS\code\CSoft\CSoft.ServiceFactory\bin\Debug\CSoft.ServiceFactory.pdb
+E:\Desktop\Work\CMS\code\CSoft\CSoft.ServiceFactory\obj\Debug\CSoft.ServiceFactory.dll
+E:\Desktop\Work\CMS\code\CSoft\CSoft.ServiceFactory\obj\Debug\CSoft.ServiceFactory.pdb
