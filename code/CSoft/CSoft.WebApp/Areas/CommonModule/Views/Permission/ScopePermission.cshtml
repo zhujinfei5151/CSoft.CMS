@@ -2,7 +2,7 @@
     ViewBag.Title = "数据范围";
     Layout = "~/Views/Shared/_LayoutIndex.cshtml";
 }
-<link href="~/Content/Styles/csoft-startmenu.css" rel="stylesheet" />
+<link href="~/Content/Styles/CallCenterui-startmenu.css" rel="stylesheet" />
 <script type="text/javascript">
     var ObjectId = GetQuery('ObjectId');                  //对象主键
     var Category = GetQuery('Category');                  //分类
@@ -65,7 +65,7 @@
         window.setTimeout(function () {
             //获取对什么资源Id:
             var ResourceId = ""; $('#ConditionInstall .bbit-tree-node-cb').each(function () {
-                if ($(this).attr('src') == '/Content/Scripts/tree/Images/icons/checkbox_1.gif') {
+                if ($(this).attr('src').indexOf('/Content/Scripts/tree/Images/icons/checkbox_1.gif') > -1) {
                     var _ResourceId = $(this).attr('id').substring(17).replace(/_/g, "-");
                     _ResourceId = _ResourceId.substring(0, _ResourceId.length - 3);
                     ResourceId += _ResourceId + ",";
